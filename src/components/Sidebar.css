@@ -1,0 +1,57 @@
+.sidebar{
+    width: 240px;
+    overflow: scroll;
+    height:900px;
+    background-color: white;
+    position: fixed;
+    left: 0;
+    z-index: 500;
+    flex: 0.3;
+}
+
+.sidebar .btn{
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    border:1px solid  #065FD4;
+    background-color: transparent;
+    padding: 6px 15px;
+    cursor: pointer;
+    margin-left: 25px;
+    margin-bottom: 17px;
+}
+
+.sidebar .btn span{
+    color: #065FD4;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+.sidebar button .MuiAvatar-colorDefault{
+    background-color:#065FD4 ;
+    width: 27px;
+    height: 27px;
+}
+.sidebar p{
+    padding: 0px 25px;
+    color: rgb(43, 42, 42);
+    font-size: 15px;
+}
+
+@media screen and (max-width:1200px) {
+    .sidebar{
+        width: 80px;
+        overflow: hidden;
+        height:350px;
+        background-color: white;
+        position: fixed;
+        left: 0;
+        z-index: 500;
+        flex: 0.3;
+        font-size: 10px;
+    }
+
+    hr{
+        border: none;
+    }
+}

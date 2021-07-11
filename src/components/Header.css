@@ -1,0 +1,252 @@
+.header{
+display: flex;
+align-items: center;
+justify-content: space-between;
+border-bottom: 1px solid rgb(215, 212, 212);
+position: sticky;
+background-color: white;
+top: 0;
+z-index: 600;
+}
+
+.header-left{
+display: flex;
+align-items: center;
+margin-left: 10px;
+}
+
+.header-left img{
+    height:80px;
+}
+
+.header-middle{
+    display: flex;
+    align-items: center;
+}
+.header-middle .input{
+  border: 1px solid rgb(215, 212, 212);
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 35px;
+  width: 650px;
+}
+
+.input input{
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    font-size: 17px;
+    opacity: 0.8;
+}
+
+.search{
+    border: 1px solid rgb(215, 212, 212);
+    background-color: rgba(240, 240, 240);
+    color: gray;
+    height: 35px;
+    width: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-right{
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+
+.header-right .btn{
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    border:1px solid  #065FD4;
+    background-color: transparent;
+    padding: 6px 10px;
+    cursor: pointer;
+}
+
+.header-right .btn span{
+    color: #065FD4;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+.header-right button .MuiAvatar-colorDefault{
+    background-color:#065FD4 ;
+    width: 27px;
+    height: 27px;
+}
+
+@media screen and (max-width:800px) {
+    .header{
+        display: flex;
+        align-items: center;
+        border-bottom: 1px solid rgb(215, 212, 212);
+        position: sticky;
+        background-color: white;
+        top: 0;
+        z-index: 600;
+        }
+    
+    .header-left{
+        display: flex;
+        align-items: center;
+        margin-left: 10px;
+        }
+        
+        .header-left img{
+            height:50px;
+        }
+        
+        .header-middle{
+            display: flex;
+            align-items: center;
+        }
+        .header-middle .input{
+          border: 1px solid rgb(215, 212, 212);
+          border-radius: 2px;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          height: 25px;
+          width: 330px;
+        }
+        
+        .input input{
+            border: none;
+            outline: none;
+            padding-left: 10px;
+            font-size: 17px;
+            opacity: 0.8;
+        }
+        
+        .search{
+            border: 1px solid rgb(215, 212, 212);
+            background-color: rgba(240, 240, 240);
+            color: gray;
+            height: 25px;
+            width: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .header-right{
+            display: flex;
+            align-items: center;
+            margin-right: 10px;
+        }
+        
+        
+        .header-right .btn{
+            display: flex;
+            align-items: center;
+            text-transform: uppercase;
+            border:none;
+            background-color: transparent;
+            padding: 3px 5px;
+            cursor: pointer;
+        }
+        
+        .header-right .btn span{
+            color: #065FD4;
+            font-weight: 600;
+            margin-left: 10px;
+            display: none;
+        }
+        
+        .header-right button .MuiAvatar-colorDefault{
+            background-color:#065FD4 ;
+            width: 25px;
+            height: 25px;
+        }
+}
+@media  screen and (min-width:801px) and (max-width:1200px) {
+    .header{
+        display: flex;
+        align-items: center;
+        border-bottom: 1px solid rgb(215, 212, 212);
+        position: sticky;
+        background-color: white;
+        top: 0;
+        z-index: 600;
+        }
+    
+    .header-left{
+        display: flex;
+        align-items: center;
+        margin-left: 10px;
+        }
+        
+        .header-left img{
+            height:50px;
+        }
+        
+        .header-middle{
+            display: flex;
+            align-items: center;
+        }
+        .header-middle .input{
+          border: 1px solid rgb(215, 212, 212);
+          border-radius: 2px;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          height: 35px;
+          width: 330px;
+        }
+        
+        .input input{
+            border: none;
+            outline: none;
+            padding-left: 10px;
+            font-size: 17px;
+            opacity: 0.8;
+        }
+        
+        .search{
+            border: 1px solid rgb(215, 212, 212);
+            background-color: rgba(240, 240, 240);
+            color: gray;
+            height: 35px;
+            width: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .header-right{
+            display: flex;
+            align-items: center;
+            margin-right: 10px;
+        }
+        
+        
+        .header-right .btn{
+            display: flex;
+            align-items: center;
+            text-transform: uppercase;
+            border:none;
+            background-color: transparent;
+            padding: 3px 5px;
+            cursor: pointer;
+        }
+        
+        .header-right .btn span{
+            color: #065FD4;
+            font-weight: 600;
+            margin-left: 10px;
+            display: none;
+        }
+        
+        .header-right button .MuiAvatar-colorDefault{
+            background-color:#065FD4 ;
+            width: 25px;
+            height: 25px;
+        }
+
+    }
